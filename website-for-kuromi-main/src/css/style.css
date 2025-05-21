@@ -1,0 +1,158 @@
+    * {
+        margin: 0;
+    }
+    
+    .Register {
+        font-family: sans-serif;
+        background-color: #F299D9;
+        /* Rosa */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        /* Garante que o conteúdo preencha toda a altura da viewport */
+        margin: 0;
+    }
+    
+    .containerLogin {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        /* Sombra suave */
+        text-align: center;
+    }
+    
+    .containerLogin img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        color: #36454F;
+        /* Azul escuro */
+        margin-bottom: 20px;
+    }
+    
+    .input-group {
+        margin-bottom: 15px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        /* Inclui padding e border na largura total */
+    }
+    
+    button {
+        background-color: #36454F;
+        /* Azul escuro */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+    }
+    
+    .skull {
+        width: 50px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .compra {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #F299D9;
+        /* Rosa */
+    }
+    
+    .buyPage {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Duas colunas de tamanho igual */
+        grid-template-rows: repeat(2, 1fr);
+        /* Duas linhas de tamanho igual */
+        grid-gap: 10px;
+        /* Espaço entre as células */
+        width: 80%;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    
+    .item {
+        background-color: #D3D3D3;
+        /* Cinza claro */
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        /* Centraliza o texto dentro de cada célula */
+    }
+    
+    .item img {
+        /* Estilos para a imagem */
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .button {
+        background-color: #36454F;
+        /* Azul escuro */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .sobreNos {
+        margin: 0;
+        font-family: sans-serif;
+    }
+    
+    .caxa {
+        width: 80%;
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #36454F;
+        /* Azul escuro */
+        border: 10px solid #F299D9;
+        /* Rosa */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .cabecao {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .cabecao h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .cabecao img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .text {
+        color: white;
+        line-height: 1.6;
+        font-size: 1em;
+        text-align: justify;
+        /* Alinha o texto à esquerda e à direita */
+    }
